@@ -1,2 +1,4 @@
-package introduction;public class Laptop {
+package introduction;
+
+public class Laptop {
 }

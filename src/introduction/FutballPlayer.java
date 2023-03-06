@@ -1,2 +1,4 @@
-package introduction;public class FutballPlayer {
+package introduction;
+
+public class FutballPlayer {
 }

@@ -1,2 +1,4 @@
-package introduction;public class Shahisti {
+package introduction;
+
+public class Shahisti {
 }

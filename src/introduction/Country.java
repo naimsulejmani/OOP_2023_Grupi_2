@@ -1,2 +1,4 @@
-package introduction;public class Country {
+package introduction;
+
+public class Country {
 }
