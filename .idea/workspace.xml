@@ -4,27 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_2023_Grupi_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/CountryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/FutballPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/Pokemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/PokemonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/Shahisti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/summary/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/summary/DogTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/summary/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/summary/ProductTest.java" afterDir="false" />
+    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="added new changes">
+      <change afterPath="$PROJECT_DIR$/src/introduction/summary/Airplane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introduction/summary/AirplaneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introduction/summary/Artikulli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introduction/summary/ArtikulliTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introduction/summary/BadDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introduction/summary/BadDateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introduction/summary/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introduction/summary/CounterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introduction/summary/Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introduction/summary/DateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,23 +38,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ProductTest">
-    <configuration name="DogTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="introduction.summary.DogTest" />
+}</component>
+  <component name="RunManager" selected="Application.DateTest">
+    <configuration name="AirplaneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introduction.summary.AirplaneTest" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
@@ -75,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokemonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="introduction.PokemonTest" />
+    <configuration name="ArtikulliTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introduction.summary.ArtikulliTest" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="introduction.*" />
+          <option name="PATTERN" value="introduction.summary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,8 +79,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="introduction.summary.ProductTest" />
+    <configuration name="BadDateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introduction.summary.BadDateTest" />
+      <module name="OOP_2023_Grupi_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="introduction.summary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CounterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introduction.summary.CounterTest" />
+      <module name="OOP_2023_Grupi_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="introduction.summary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introduction.summary.DateTest" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
@@ -103,9 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductTest" />
-        <item itemvalue="Application.DogTest" />
-        <item itemvalue="Application.PokemonTest" />
+        <item itemvalue="Application.DateTest" />
+        <item itemvalue="Application.AirplaneTest" />
+        <item itemvalue="Application.BadDateTest" />
+        <item itemvalue="Application.ArtikulliTest" />
+        <item itemvalue="Application.CounterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -120,10 +139,24 @@
       <workItem from="1677522537465" duration="4157000" />
       <workItem from="1677860137418" duration="41000" />
       <workItem from="1678126539292" duration="3111000" />
+      <workItem from="1678142438864" duration="70000" />
+      <workItem from="1678385182841" duration="6092000" />
     </task>
+    <task id="LOCAL-00001" summary="added new changes">
+      <created>1678142490546</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678142490546</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added new changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new changes" />
   </component>
 </project>
