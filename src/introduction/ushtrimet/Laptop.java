@@ -65,21 +65,22 @@ public class Laptop {
     }
 
     public void setSerialNumber(String serialNumber) {
-        if (serialNumber.length() >= 10) {
-            this.serialNumber = serialNumber;
+        if (serialNumber.trim().length() >= 10) {
+            this.serialNumber = serialNumber.trim();
         }
     }
-    public String getSerialNumber(){
+
+    public String getSerialNumber() {
         return serialNumber;
     }
 
-    public void setRam(int ram){
-        if (ram >= 0){
+    public void setRam(int ram) {
+        if (ram >= 0) {
             this.ram = ram;
         }
     }
 
-    public int getRam(){
+    public int getRam() {
         return ram;
     }
 

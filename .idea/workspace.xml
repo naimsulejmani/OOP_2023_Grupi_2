@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="object class constructor information hidding, encapsulation">
-      <change afterPath="$PROJECT_DIR$/src/introduction/ushtrimet/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/ushtrimet/LaptopTest.java" afterDir="false" />
+    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="Laptop">
+      <change afterPath="$PROJECT_DIR$/src/introduction/ushtrimet/Cinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introduction/ushtrimet/CinemaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/introduction/ushtrimet/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introduction/ushtrimet/Laptop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,22 +45,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LaptopTest">
+  <component name="RunManager" selected="Application.CinemaTest">
     <configuration name="AirplaneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="introduction.summary.AirplaneTest" />
-      <module name="OOP_2023_Grupi_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="introduction.summary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArtikulliTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="introduction.summary.ArtikulliTest" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
@@ -77,6 +65,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="introduction.summary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CinemaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introduction.ushtrimet.CinemaTest" />
+      <module name="OOP_2023_Grupi_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="introduction.ushtrimet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CinemaTest" />
         <item itemvalue="Application.LaptopTest" />
         <item itemvalue="Application.DateTest" />
         <item itemvalue="Application.AirplaneTest" />
         <item itemvalue="Application.BadDateTest" />
-        <item itemvalue="Application.ArtikulliTest" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +137,7 @@
       <workItem from="1678457624088" duration="23000" />
       <workItem from="1678457728845" duration="19000" />
       <workItem from="1678464891526" duration="25000" />
-      <workItem from="1678731561676" duration="2241000" />
+      <workItem from="1678731561676" duration="4833000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142490546</created>
@@ -152,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678391485684</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Laptop">
+      <created>1678734051381</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678734051382</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added new changes" />
     <MESSAGE value="object class constructor information hidding, encapsulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="object class constructor information hidding, encapsulation" />
+    <MESSAGE value="Laptop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laptop" />
   </component>
 </project>
