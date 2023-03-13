@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="added new changes">
-      <change afterPath="$PROJECT_DIR$/src/introduction/summary/Airplane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/summary/AirplaneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/summary/Artikulli.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/summary/ArtikulliTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/summary/BadDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/summary/BadDateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/summary/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/summary/CounterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/summary/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/summary/DateTest.java" afterDir="false" />
+    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="object class constructor information hidding, encapsulation">
+      <change afterPath="$PROJECT_DIR$/src/introduction/ushtrimet/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introduction/ushtrimet/LaptopTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +44,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DateTest">
+  <component name="RunManager" selected="Application.LaptopTest">
     <configuration name="AirplaneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="introduction.summary.AirplaneTest" />
       <module name="OOP_2023_Grupi_2" />
@@ -92,19 +84,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CounterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="introduction.summary.CounterTest" />
-      <module name="OOP_2023_Grupi_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="introduction.summary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="introduction.summary.DateTest" />
       <module name="OOP_2023_Grupi_2" />
@@ -118,13 +97,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LaptopTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="introduction.ushtrimet.LaptopTest" />
+      <module name="OOP_2023_Grupi_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="introduction.ushtrimet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LaptopTest" />
         <item itemvalue="Application.DateTest" />
         <item itemvalue="Application.AirplaneTest" />
         <item itemvalue="Application.BadDateTest" />
         <item itemvalue="Application.ArtikulliTest" />
-        <item itemvalue="Application.CounterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +132,11 @@
       <workItem from="1677860137418" duration="41000" />
       <workItem from="1678126539292" duration="3111000" />
       <workItem from="1678142438864" duration="70000" />
-      <workItem from="1678385182841" duration="6092000" />
+      <workItem from="1678385182841" duration="6120000" />
+      <workItem from="1678457624088" duration="23000" />
+      <workItem from="1678457728845" duration="19000" />
+      <workItem from="1678464891526" duration="25000" />
+      <workItem from="1678731561676" duration="2241000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142490546</created>
@@ -149,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678142490546</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="object class constructor information hidding, encapsulation">
+      <created>1678391485684</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678391485684</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added new changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new changes" />
+    <MESSAGE value="object class constructor information hidding, encapsulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="object class constructor information hidding, encapsulation" />
   </component>
 </project>
