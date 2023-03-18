@@ -4,16 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="Klass &amp; Objekt ushtrimet">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/ChampionsLeagePhase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/DayOfWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/DayOfWeekTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reference_scope/MyDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reference_scope/MyDateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reference_scope/PassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reference_scope/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reference_scope/StudentTest.java" afterDir="false" />
+    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="Pass by reference &amp; value + some enums">
+      <change afterPath="$PROJECT_DIR$/src/enums/FontStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/JobType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/Length.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/Level.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/PizzaStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/SearchEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/SearchEngineClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/SearchEngineClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/SearchEngineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/SearhEngineTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/Season.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/SeasonClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/Size.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/Suit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/SuitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,35 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.DayOfWeekTest">
-    <configuration name="CinemaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="introduction.ushtrimet.CinemaTest" />
-      <module name="OOP_2023_Grupi_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="introduction.ushtrimet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Application.SearhEngineTest2">
     <configuration name="DayOfWeekTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="enums.DayOfWeekTest" />
       <module name="OOP_2023_Grupi_2" />
@@ -80,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyDateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reference_scope.MyDateTest" />
+    <configuration name="SearchEngineClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="enums.SearchEngineClassTest" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reference_scope.*" />
+          <option name="PATTERN" value="enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reference_scope.PassTest" />
+    <configuration name="SearchEngineTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="enums.SearchEngineTest" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reference_scope.*" />
+          <option name="PATTERN" value="enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +99,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reference_scope.StudentTest" />
+    <configuration name="SearhEngineTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="enums.SearhEngineTest2" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reference_scope.*" />
+          <option name="PATTERN" value="enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="enums.SuitTest" />
+      <module name="OOP_2023_Grupi_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearhEngineTest2" />
+        <item itemvalue="Application.SearchEngineTest" />
+        <item itemvalue="Application.SearchEngineClassTest" />
+        <item itemvalue="Application.SuitTest" />
         <item itemvalue="Application.DayOfWeekTest" />
-        <item itemvalue="Application.MyDateTest" />
-        <item itemvalue="Application.PassTest" />
-        <item itemvalue="Application.StudentTest" />
-        <item itemvalue="Application.CinemaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +152,8 @@
       <workItem from="1678457728845" duration="19000" />
       <workItem from="1678464891526" duration="25000" />
       <workItem from="1678731561676" duration="4881000" />
-      <workItem from="1678990848945" duration="4199000" />
+      <workItem from="1678990848945" duration="4249000" />
+      <workItem from="1679138951263" duration="4695000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142490546</created>
@@ -176,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678736490319</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Pass by reference &amp; value + some enums">
+      <created>1678995093197</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678995093197</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +201,8 @@
     <MESSAGE value="object class constructor information hidding, encapsulation" />
     <MESSAGE value="Laptop" />
     <MESSAGE value="Klass &amp; Objekt ushtrimet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Klass &amp; Objekt ushtrimet" />
+    <MESSAGE value="Pass by reference &amp; value + some enums" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pass by reference &amp; value + some enums" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
