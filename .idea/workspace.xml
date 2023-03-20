@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="Pass by reference &amp; value + some enums">
-      <change afterPath="$PROJECT_DIR$/src/enums/FontStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/JobType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/Length.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/Level.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/PizzaStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/SearchEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/SearchEngineClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/SearchEngineClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/SearchEngineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/SearhEngineTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/Season.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/SeasonClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/Size.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/Suit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/SuitTest.java" afterDir="false" />
+    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="enums example">
+      <change afterPath="$PROJECT_DIR$/src/ushtrimet/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ushtrimet/CircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ushtrimet/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ushtrimet/PointTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ushtrimet/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ushtrimet/SquareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ushtrimet/enums/MeasureUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ushtrimet/enums/MeasureUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ushtrimet/enums/Nota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ushtrimet/enums/NotaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,13 +54,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SearhEngineTest2">
-    <configuration name="DayOfWeekTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enums.DayOfWeekTest" />
+  <component name="RunManager" selected="Application.NotaTest">
+    <configuration name="CircleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ushtrimet.CircleTest" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enums.*" />
+          <option name="PATTERN" value="ushtrimet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchEngineClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enums.SearchEngineClassTest" />
+    <configuration name="MeasureUnitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ushtrimet.enums.MeasureUnitTest" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enums.*" />
+          <option name="PATTERN" value="ushtrimet.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchEngineTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enums.SearchEngineTest" />
+    <configuration name="NotaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ushtrimet.enums.NotaTest" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enums.*" />
+          <option name="PATTERN" value="ushtrimet.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearhEngineTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enums.SearhEngineTest2" />
+    <configuration name="PointTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ushtrimet.PointTest" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enums.*" />
+          <option name="PATTERN" value="ushtrimet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enums.SuitTest" />
+    <configuration name="SquareTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ushtrimet.SquareTest" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enums.*" />
+          <option name="PATTERN" value="ushtrimet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SearhEngineTest2" />
-        <item itemvalue="Application.SearchEngineTest" />
-        <item itemvalue="Application.SearchEngineClassTest" />
-        <item itemvalue="Application.SuitTest" />
-        <item itemvalue="Application.DayOfWeekTest" />
+        <item itemvalue="Application.NotaTest" />
+        <item itemvalue="Application.MeasureUnitTest" />
+        <item itemvalue="Application.CircleTest" />
+        <item itemvalue="Application.SquareTest" />
+        <item itemvalue="Application.PointTest" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +148,8 @@
       <workItem from="1678464891526" duration="25000" />
       <workItem from="1678731561676" duration="4881000" />
       <workItem from="1678990848945" duration="4249000" />
-      <workItem from="1679138951263" duration="4695000" />
+      <workItem from="1679138951263" duration="4814000" />
+      <workItem from="1679337229929" duration="4331000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142490546</created>
@@ -190,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678995093197</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="enums example">
+      <created>1679143918551</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679143918551</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +205,8 @@
     <MESSAGE value="Laptop" />
     <MESSAGE value="Klass &amp; Objekt ushtrimet" />
     <MESSAGE value="Pass by reference &amp; value + some enums" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pass by reference &amp; value + some enums" />
+    <MESSAGE value="enums example" />
+    <option name="LAST_COMMIT_MESSAGE" value="enums example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
