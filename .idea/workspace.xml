@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="association, composition, aggregation">
-      <change afterPath="$PROJECT_DIR$/src/associations_relationships/ushtrime/AntiAircraftGun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/associations_relationships/ushtrime/Bomber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/associations_relationships/ushtrime/GameTest.java" afterDir="false" />
+    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="game time">
+      <change afterPath="$PROJECT_DIR$/src/associations_relationships/todoapp/TodoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/associations_relationships/todoapp/TodoItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/associations_relationships/todoapp/TodoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GameTest">
+  <component name="RunManager" selected="Application.TodoApp">
     <configuration name="CourseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="associations_relationships.CourseTest" />
       <module name="OOP_2023_Grupi_2" />
@@ -67,19 +67,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="associations_relationships.ushtrime.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MeasureUnitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ushtrimet.enums.MeasureUnitTest" />
-      <module name="OOP_2023_Grupi_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ushtrimet.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TodoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="associations_relationships.todoapp.TodoApp" />
+      <module name="OOP_2023_Grupi_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="associations_relationships.todoapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TodoApp" />
         <item itemvalue="Application.GameTest" />
         <item itemvalue="Application.CourseTest" />
         <item itemvalue="Application.PersonTest" />
         <item itemvalue="Application.NotaTest" />
-        <item itemvalue="Application.MeasureUnitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +144,7 @@
       <workItem from="1679138951263" duration="4814000" />
       <workItem from="1679337229929" duration="4489000" />
       <workItem from="1679594283656" duration="4774000" />
-      <workItem from="1679938241063" duration="1543000" />
+      <workItem from="1679938241063" duration="4356000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142490546</created>
@@ -202,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679599805320</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="game time">
+      <created>1679939940568</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679939940568</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +224,8 @@
     <MESSAGE value="enums example" />
     <MESSAGE value="ushtrime" />
     <MESSAGE value="association, composition, aggregation" />
-    <option name="LAST_COMMIT_MESSAGE" value="association, composition, aggregation" />
+    <MESSAGE value="game time" />
+    <option name="LAST_COMMIT_MESSAGE" value="game time" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
