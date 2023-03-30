@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="game time">
-      <change afterPath="$PROJECT_DIR$/src/associations_relationships/todoapp/TodoMenu.java" afterDir="false" />
+    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="TodoApp">
+      <change afterPath="$PROJECT_DIR$/src/associations_relationships/courses/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/associations_relationships/courses/CourseLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/associations_relationships/courses/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/associations_relationships/courses/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/associations_relationships/courses/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/associations_relationships/courses/Title.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/associations_relationships/todoapp/TodoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/associations_relationships/todoapp/TodoApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -145,7 +149,7 @@
       <workItem from="1679594283656" duration="4774000" />
       <workItem from="1679938241063" duration="4593000" />
       <workItem from="1679958508902" duration="52000" />
-      <workItem from="1680197391000" duration="3225000" />
+      <workItem from="1680197391000" duration="4548000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142490546</created>
@@ -217,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679942839629</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="TodoApp">
+      <created>1680200876952</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680200876952</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +244,8 @@
     <MESSAGE value="ushtrime" />
     <MESSAGE value="association, composition, aggregation" />
     <MESSAGE value="game time" />
-    <option name="LAST_COMMIT_MESSAGE" value="game time" />
+    <MESSAGE value="TodoApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="TodoApp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
