@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="TodoApp">
-      <change afterPath="$PROJECT_DIR$/src/associations_relationships/courses/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/associations_relationships/courses/CourseLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/associations_relationships/courses/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/associations_relationships/courses/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/associations_relationships/courses/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/associations_relationships/courses/Title.java" afterDir="false" />
+    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="Courses">
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/records/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/records/PersonRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/records/PersonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,9 +22,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,15 +46,17 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.customizations",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TodoApp">
+  <component name="RunManager" selected="Application.StudentTest">
     <configuration name="CourseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="associations_relationships.CourseTest" />
       <module name="OOP_2023_Grupi_2" />
@@ -77,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ushtrimet.enums.NotaTest" />
+    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="associations_relationships.PersonTest" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ushtrimet.enums.*" />
+          <option name="PATTERN" value="associations_relationships.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="associations_relationships.PersonTest" />
+    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.StudentTest" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="associations_relationships.*" />
+          <option name="PATTERN" value="inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentTest" />
         <item itemvalue="Application.TodoApp" />
         <item itemvalue="Application.GameTest" />
         <item itemvalue="Application.CourseTest" />
         <item itemvalue="Application.PersonTest" />
-        <item itemvalue="Application.NotaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +155,8 @@
       <workItem from="1679594283656" duration="4774000" />
       <workItem from="1679938241063" duration="4593000" />
       <workItem from="1679958508902" duration="52000" />
-      <workItem from="1680197391000" duration="4548000" />
+      <workItem from="1680197391000" duration="4725000" />
+      <workItem from="1680543476885" duration="3691000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142490546</created>
@@ -228,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680200876952</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Courses">
+      <created>1680202144195</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680202144195</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +259,8 @@
     <MESSAGE value="association, composition, aggregation" />
     <MESSAGE value="game time" />
     <MESSAGE value="TodoApp" />
-    <option name="LAST_COMMIT_MESSAGE" value="TodoApp" />
+    <MESSAGE value="Courses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Courses" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
