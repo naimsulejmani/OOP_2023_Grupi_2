@@ -4,7 +4,7 @@ import associations_relationships.courses.Gender;
 
 import java.time.LocalDate;
 
-public class Person {
+public class Person extends Object{
     private String name;
     private String surname;
     private LocalDate birthdate;

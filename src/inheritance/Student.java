@@ -58,6 +58,13 @@ public class Student extends Person {
     }
 
     @Override
+    public void setBirthdate(LocalDate birthdate) {
+        if (birthdate.isBefore(LocalDate.of(1900, 1, 1)))
+            super.setBirthdate(LocalDate.now());
+        super.setBirthdate(birthdate);
+    }
+
+    @Override
     public String toString() {
         return "Student{" +
                 "id=" + id +

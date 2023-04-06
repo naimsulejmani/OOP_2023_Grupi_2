@@ -3,6 +3,7 @@ package inheritance;
 import associations_relationships.courses.Gender;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 public class StudentTest {
     public static void main(String[] args) {
@@ -28,5 +29,11 @@ public class StudentTest {
         System.out.println(s1.getFieldOfStudy());
 
         System.out.println(s1);
+
+        StudentTest st = new StudentTest();
+        System.out.println(st.toString());
+
+        ArrayList lista = new ArrayList();
+
     }
 }
