@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="Inheritance part 1">
-      <change afterPath="$PROJECT_DIR$/src/inheritance/payroll_app/Consulent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/payroll_app/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/payroll_app/EmployeeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/payroll_app/HourlyEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/payroll_app/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/payroll_app/Paycheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/payroll_app/Programmer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance/payroll_app/SalariedEmployee.java" afterDir="false" />
+    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="Inheritance + Composition">
+      <change afterPath="$PROJECT_DIR$/src/inheritance/payroll_app/PayrollGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/MainOverloaded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/polymorphism_other/VarArgs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +54,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.EmployeeTest">
+  <component name="RunManager" selected="Application.VarArgs">
     <configuration name="BirdTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inheritance.bird_app.BirdTest" />
       <module name="OOP_2023_Grupi_2" />
@@ -86,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="associations_relationships.ushtrime.GameTest" />
+    <configuration name="PayrollGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.payroll_app.PayrollGenerator" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="associations_relationships.ushtrime.*" />
+          <option name="PATTERN" value="inheritance.payroll_app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="associations_relationships.todoapp.TodoApp" />
+    <configuration name="VarArgs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.polymorphism_other.VarArgs" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="associations_relationships.todoapp.*" />
+          <option name="PATTERN" value="inheritance.polymorphism_other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VarArgs" />
+        <item itemvalue="Application.PayrollGenerator" />
         <item itemvalue="Application.EmployeeTest" />
         <item itemvalue="Application.BirdTest" />
         <item itemvalue="Application.StudentTest" />
-        <item itemvalue="Application.TodoApp" />
-        <item itemvalue="Application.GameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +159,9 @@
       <workItem from="1680806933615" duration="17000" />
       <workItem from="1680880504736" duration="27000" />
       <workItem from="1681409032685" duration="2715000" />
-      <workItem from="1681480675627" duration="316000" />
+      <workItem from="1681480675627" duration="336000" />
+      <workItem from="1681744137667" duration="17000" />
+      <workItem from="1681751047852" duration="4931000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142490546</created>
@@ -264,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680806896307</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Inheritance + Composition">
+      <created>1681481002574</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681481002574</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +288,8 @@
     <MESSAGE value="Courses" />
     <MESSAGE value="Inheritance" />
     <MESSAGE value="Inheritance part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inheritance part 1" />
+    <MESSAGE value="Inheritance + Composition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inheritance + Composition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
