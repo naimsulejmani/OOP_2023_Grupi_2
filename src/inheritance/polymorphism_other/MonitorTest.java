@@ -1,5 +1,7 @@
 package inheritance.polymorphism_other;
 
+import java.time.LocalDate;
+
 public class MonitorTest {
     public static void main(String[] args) {
         //upcasting
@@ -23,11 +25,19 @@ public class MonitorTest {
         } else {
             System.out.println("MONITOR");
         }
-
     }
 
     public static void test(Object object) {
 
+        if (object instanceof String) {
+            System.out.println("You are string: " + object);
+        } else if (object instanceof LocalDate) {
+            LocalDate date = (LocalDate) object;
+            System.out.println(date);
+        } else if (object instanceof Monitor) {
+            System.out.println("MONITOR");
+            test((Monitor) object);
+        }
     }
 
 
