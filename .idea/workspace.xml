@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="Exception handling">
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/MiniProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/ShopApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/enums/Rating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/exceptions/ProductExpiredException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/exceptions/ProductInvalidPriceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/exceptions/ProductNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/managers/ProductManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/models/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/repositories/ProductRepository.java" afterDir="false" />
+    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="mini-project">
+      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/enums/ProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/models/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/models/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mini_projects/shop/models/Review.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mini_projects/shop/ShopApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mini_projects/shop/ShopApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mini_projects/shop/managers/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mini_projects/shop/managers/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mini_projects/shop/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mini_projects/shop/models/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +176,10 @@
       <workItem from="1681922871672" duration="5372000" />
       <workItem from="1682002608768" duration="19000" />
       <workItem from="1682009990751" duration="6362000" />
-      <workItem from="1682356259233" duration="5775000" />
+      <workItem from="1682356259233" duration="5873000" />
+      <workItem from="1682521174152" duration="21000" />
+      <workItem from="1682521238470" duration="10000" />
+      <workItem from="1682615238522" duration="3283000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142490546</created>
@@ -313,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682019925930</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="mini-project">
+      <created>1682362272082</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1682362272082</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +345,8 @@
     <MESSAGE value="polymorphism1" />
     <MESSAGE value="polymorphism - instanceof" />
     <MESSAGE value="Exception handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception handling" />
+    <MESSAGE value="mini-project" />
+    <option name="LAST_COMMIT_MESSAGE" value="mini-project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

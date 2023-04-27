@@ -1,5 +1,6 @@
 package mini_projects.shop;
 
+import mini_projects.shop.enums.ProductType;
 import mini_projects.shop.enums.Rating;
 import mini_projects.shop.managers.ProductManager;
 import mini_projects.shop.models.Product;
@@ -9,16 +10,24 @@ import java.time.LocalDate;
 
 public class ShopApp {
     public static void main(String[] args) {
-//        Product p1 = new Product("Arsenal", "vendi 4",
-//                LocalDate.of(2004, 6, 15),
-//                BigDecimal.valueOf(300_000_000_000_000L),
-//                Rating.FIVE_STAR);
-//        System.out.println(p1);
 
-        ProductManager.add("Duhan", "Mos e mbytni vetveten",
-                "2023-06-01", -2.40, Rating.ZERO_STAR);
+        ProductManager.createProduct(ProductType.FOOD, "crosant me coko",
+                "shume e shijshme pasi ishte kan hisja e Blendit",
+                "2023-04-26", 0.0);
+
+        ProductManager.createProduct(ProductType.DRINK, "Kaffe", "Kaffe pa shiqer",
+                "2023-04-27", 0.50);
+        ProductManager.createProduct(ProductType.FOOD, "TEST", "TEST",
+                "2004-06-01", -3_000_000);
+
     }
 }
+
+
+
+
+
+
 
 
 

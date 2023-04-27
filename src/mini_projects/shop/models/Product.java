@@ -4,6 +4,7 @@ import mini_projects.shop.enums.Rating;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 public class Product {
     private static int generateId = 0;
@@ -12,25 +13,21 @@ public class Product {
     private String description;
     private LocalDate bestBefore;
     private BigDecimal price;
-    private Rating rating;
+    private ArrayList<Review> reviews = new ArrayList<>();
 
-    public Product(String name, String description, LocalDate bestBefore, BigDecimal price, Rating rating) {
+
+    public Product(String name, String description, LocalDate bestBefore, BigDecimal price) {
         this.id = ++generateId;
         this.name = name;
         this.description = description;
         this.bestBefore = bestBefore;
         this.price = price;
-        this.rating = rating;
     }
 
     public Product(String name, String description) {
-        this(name, description, LocalDate.now().plusDays(30),
-                BigDecimal.ZERO, Rating.ZERO_STAR);
+        this(name, description, LocalDate.now().plusDays(30), BigDecimal.ZERO);
     }
 
-    public Product(String name, String description, LocalDate bestBefore, BigDecimal price) {
-        this(name, description, bestBefore, price, Rating.ZERO_STAR);
-    }
 
     public int getId() {
         return id;
@@ -68,19 +65,23 @@ public class Product {
         this.price = price;
     }
 
-    public Rating getRating() {
-        return rating;
+    public double getDiscount() {
+        return 0;
     }
 
-    public void setRating(Rating rating) {
-        this.rating = rating;
+    public String getRating() {
+        return Rating.ZERO_STAR.getStars();
+    }
+
+    public ArrayList<Review> getReviews() {
+        return reviews;
     }
 
     @Override
     public String toString() {
         return String.format(
-                "#%d - %s%nPershkrimi: %s%nData e skadimit: %s%nCmimi: %s EUR%nVlersimi: %s",
-                id, name, description, bestBefore, price, rating.getStars()
+                "#%d - %s%nPershkrimi: %s%nData e skadimit: %s%nCmimi: %s EUR%nVlersimi: %s%nZbritja: %.2f %%",
+                id, name, description, bestBefore, price, getRating(), getDiscount() * 100
         );
     }
 }

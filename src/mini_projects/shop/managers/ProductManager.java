@@ -1,8 +1,11 @@
 package mini_projects.shop.managers;
 
+import mini_projects.shop.enums.ProductType;
 import mini_projects.shop.enums.Rating;
 import mini_projects.shop.exceptions.ProductExpiredException;
 import mini_projects.shop.exceptions.ProductInvalidPriceException;
+import mini_projects.shop.models.Drink;
+import mini_projects.shop.models.Food;
 import mini_projects.shop.models.Product;
 import mini_projects.shop.repositories.ProductRepository;
 
@@ -12,17 +15,22 @@ import java.time.LocalDate;
 public class ProductManager {
     private static final ProductRepository repository = new ProductRepository();
 
-    public static void add(String name, String description, String bestBefore, double price, Rating rating) {
-        Product p = new Product(name, description, LocalDate.parse(bestBefore),
-                BigDecimal.valueOf(price), rating);
+    public static void createProduct(ProductType type, String name,
+                                     String description, String bestBefore, double price) {
 
+        Product product = switch (type) {
+            case FOOD -> new Food(name, description, LocalDate.parse(bestBefore), BigDecimal.valueOf(price));
+            case DRINK -> new Drink(name, description, LocalDate.parse(bestBefore), BigDecimal.valueOf(price));
+        };
         try {
-            repository.add(p);
+            repository.add(product);
             System.out.println("Produkti u regjistrua me sukses!");
         } catch (ProductInvalidPriceException e) {
             System.out.println("Cmimi negative: " + e.getPrice());
+            System.out.println("Gabim ne produktin: " + name);
         } catch (ProductExpiredException e) {
             System.out.println("Ka skadu afati per me regjistru kete produkt me: " + e.getExpiredDate());
+            System.out.println("Gabim ne produktin: " + name);
         }
     }
 }
