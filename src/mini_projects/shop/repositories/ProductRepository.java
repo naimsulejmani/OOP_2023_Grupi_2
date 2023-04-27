@@ -42,7 +42,6 @@ public class ProductRepository {
         product.setDescription(updatedProduct.getDescription());
         product.setPrice(updatedProduct.getPrice());
         product.setBestBefore(updatedProduct.getBestBefore());
-        product.setRating(updatedProduct.getRating());
     }
     public ArrayList<Product> findAll() {
         return (ArrayList<Product>) products.clone(); // return products;

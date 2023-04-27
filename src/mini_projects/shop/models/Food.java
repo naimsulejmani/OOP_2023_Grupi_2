@@ -6,9 +6,6 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 public final class Food extends Product {
-    public Food(String name, String description, LocalDate bestBefore, BigDecimal price, Rating rating) {
-        super(name, description, bestBefore, price, rating);
-    }
 
     public Food(String name, String description) {
         super(name, description);

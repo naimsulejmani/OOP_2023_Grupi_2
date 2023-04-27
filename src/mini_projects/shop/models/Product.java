@@ -70,7 +70,13 @@ public class Product {
     }
 
     public String getRating() {
-        return Rating.ZERO_STAR.getStars();
+        if (reviews.size() == 0) return Rating.ZERO_STAR.getStars();
+
+        double sum = 0;
+        for (Review review : reviews) {
+            sum += review.getRating().getValue(); // use ordinal proposal from Altin
+        }
+        return Rating.values()[(int) Math.round(sum / reviews.size())].getStars();
     }
 
     public ArrayList<Review> getReviews() {
