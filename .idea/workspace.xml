@@ -7,12 +7,7 @@
     <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="mini-project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mini_projects/shop/ShopApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mini_projects/shop/ShopApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mini_projects/shop/enums/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mini_projects/shop/enums/Rating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mini_projects/shop/managers/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mini_projects/shop/managers/ProductManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mini_projects/shop/models/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mini_projects/shop/models/Drink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mini_projects/shop/models/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mini_projects/shop/models/Food.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mini_projects/shop/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mini_projects/shop/models/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mini_projects/shop/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mini_projects/shop/repositories/ProductRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +174,9 @@
       <workItem from="1682356259233" duration="5873000" />
       <workItem from="1682521174152" duration="21000" />
       <workItem from="1682521238470" duration="10000" />
-      <workItem from="1682615238522" duration="5429000" />
+      <workItem from="1682615238522" duration="5577000" />
+      <workItem from="1682694428790" duration="30000" />
+      <workItem from="1682699817857" duration="270000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142490546</created>
@@ -328,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682618551874</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="mini-project">
+      <created>1682620831698</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1682620831698</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

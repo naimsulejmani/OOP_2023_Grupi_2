@@ -74,7 +74,7 @@ public class Product {
 
         double sum = 0;
         for (Review review : reviews) {
-            sum += review.getRating().getValue(); // use ordinal proposal from Altin
+            sum += review.getRating().ordinal(); // use ordinal proposal from Altin
         }
         return Rating.values()[(int) Math.round(sum / reviews.size())].getStars();
     }

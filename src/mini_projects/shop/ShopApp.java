@@ -16,7 +16,7 @@ public class ShopApp {
                 "2023-04-28", 1.0);
 
         ProductManager.createProduct(ProductType.DRINK, "Kaffe", "Kaffe pa shiqer",
-                "2023-04-27", 0.50);
+                "2023-04-28", 0.50);
         ProductManager.createProduct(ProductType.FOOD, "TEST", "TEST",
                 "2004-06-01", -3_000_000);
 
