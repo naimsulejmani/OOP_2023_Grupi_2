@@ -4,21 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="mini-project">
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/AbstractStudentCrud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/Derived.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/DerivedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/MyClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/PassagerVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/Star.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/StarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/StudentCrudImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstract_classes/Vehicle.java" afterDir="false" />
+    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="Abstract classes">
+      <change afterPath="$PROJECT_DIR$/src/interfaces/FreshMilk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Perishable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/PerishableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/games/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/games/CheckersRuleSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/games/ChessRuleSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/games/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/games/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/games/RuleSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/MyThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +28,7 @@
       <list>
         <option value="Record" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -71,7 +69,7 @@
       <recent name="exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DerivedTest">
+  <component name="RunManager" selected="Application.Game">
     <configuration name="DerivedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstract_classes.DerivedTest" />
       <module name="OOP_2023_Grupi_2" />
@@ -85,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadingFileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.ReadingFileTest" />
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.games.Game" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="interfaces.games.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResourceAutoClose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.ResourceAutoClose" />
+    <configuration name="MyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.MyThread" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mini_projects.shop.ShopApp" />
+    <configuration name="PerishableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.PerishableTest" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mini_projects.shop.*" />
+          <option name="PATTERN" value="interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Game" />
+        <item itemvalue="Application.PerishableTest" />
+        <item itemvalue="Application.MyThread" />
         <item itemvalue="Application.DerivedTest" />
         <item itemvalue="Application.StarTest" />
-        <item itemvalue="Application.ShopApp" />
-        <item itemvalue="Application.ResourceAutoClose" />
-        <item itemvalue="Application.ReadingFileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +188,8 @@
       <workItem from="1682694428790" duration="30000" />
       <workItem from="1682699817857" duration="270000" />
       <workItem from="1682702317674" duration="15000" />
-      <workItem from="1683221045894" duration="3238000" />
+      <workItem from="1683221045894" duration="3261000" />
+      <workItem from="1683368291775" duration="4133000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142490546</created>
@@ -353,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682702324389</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Abstract classes">
+      <created>1683224306678</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1683224306678</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,7 +384,8 @@
     <MESSAGE value="polymorphism - instanceof" />
     <MESSAGE value="Exception handling" />
     <MESSAGE value="mini-project" />
-    <option name="LAST_COMMIT_MESSAGE" value="mini-project" />
+    <MESSAGE value="Abstract classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstract classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
