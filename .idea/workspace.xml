@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="Abstract classes">
-      <change afterPath="$PROJECT_DIR$/src/interfaces/FreshMilk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/Perishable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/PerishableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/games/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/games/CheckersRuleSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/games/ChessRuleSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/games/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/games/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/games/RuleSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/MyThread.java" afterDir="false" />
+    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="Interface">
+      <change afterPath="$PROJECT_DIR$/src/interfaces/adapters/AdapterList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/adapters/ChelseaList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/adapters/Listable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/db_project/DbProjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/db_project/drivers/MssqlDbConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/db_project/drivers/MySqlDbConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/db_project/drivers/OracleDbConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/db_project/exceptions/SQLException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/db_project/interfaces/DbConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/functional_interface/Moveable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +68,20 @@
       <recent name="exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Game">
+  <component name="RunManager" selected="Application.DbProjectTest">
+    <configuration name="DbProjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.db_project.DbProjectTest" />
+      <module name="OOP_2023_Grupi_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaces.db_project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DerivedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstract_classes.DerivedTest" />
       <module name="OOP_2023_Grupi_2" />
@@ -122,26 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstract_classes.StarTest" />
-      <module name="OOP_2023_Grupi_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="abstract_classes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DbProjectTest" />
         <item itemvalue="Application.Game" />
         <item itemvalue="Application.PerishableTest" />
         <item itemvalue="Application.MyThread" />
         <item itemvalue="Application.DerivedTest" />
-        <item itemvalue="Application.StarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +188,9 @@
       <workItem from="1682699817857" duration="270000" />
       <workItem from="1682702317674" duration="15000" />
       <workItem from="1683221045894" duration="3261000" />
-      <workItem from="1683368291775" duration="4133000" />
+      <workItem from="1683368291775" duration="4290000" />
+      <workItem from="1683558265334" duration="42000" />
+      <workItem from="1683566233001" duration="5362000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142490546</created>
@@ -359,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683224306678</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Interface">
+      <created>1683374500759</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1683374500759</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +393,8 @@
     <MESSAGE value="Exception handling" />
     <MESSAGE value="mini-project" />
     <MESSAGE value="Abstract classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstract classes" />
+    <MESSAGE value="Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
