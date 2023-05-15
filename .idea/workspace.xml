@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="Interface">
-      <change afterPath="$PROJECT_DIR$/src/interfaces/adapters/AdapterList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/adapters/ChelseaList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/adapters/Listable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/db_project/DbProjectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/db_project/drivers/MssqlDbConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/db_project/drivers/MySqlDbConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/db_project/drivers/OracleDbConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/db_project/exceptions/SQLException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/db_project/interfaces/DbConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/functional_interface/Moveable.java" afterDir="false" />
+    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="DBConnection Interface logic - loose coupled">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mssql_jdbc_12_2_0_jre11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc_examples/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc_examples/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc_examples/TestConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP_2023_Grupi_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_2023_Grupi_2.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,37 +39,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Development/Libraries/java/sqljdbc_12.2/enu/mssql-jdbc-12.2.0.jre11.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DbProjectTest">
-    <configuration name="DbProjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.db_project.DbProjectTest" />
+  <component name="RunManager" selected="Application.CategoryRepository">
+    <configuration name="CategoryRepository" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc_examples.CategoryRepository" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaces.db_project.*" />
+          <option name="PATTERN" value="jdbc_examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DerivedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstract_classes.DerivedTest" />
+    <configuration name="DbProjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.db_project.DbProjectTest" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstract_classes.*" />
+          <option name="PATTERN" value="interfaces.db_project.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,19 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threads.MyThread" />
-      <module name="OOP_2023_Grupi_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="threads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PerishableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interfaces.PerishableTest" />
       <module name="OOP_2023_Grupi_2" />
@@ -134,13 +120,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc_examples.TestConnection" />
+      <module name="OOP_2023_Grupi_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc_examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CategoryRepository" />
+        <item itemvalue="Application.TestConnection" />
         <item itemvalue="Application.DbProjectTest" />
         <item itemvalue="Application.Game" />
         <item itemvalue="Application.PerishableTest" />
-        <item itemvalue="Application.MyThread" />
-        <item itemvalue="Application.DerivedTest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +189,8 @@
       <workItem from="1683221045894" duration="3261000" />
       <workItem from="1683368291775" duration="4290000" />
       <workItem from="1683558265334" duration="42000" />
-      <workItem from="1683566233001" duration="5362000" />
+      <workItem from="1683566233001" duration="5396000" />
+      <workItem from="1684171410911" duration="4498000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142490546</created>
@@ -367,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683374500759</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="DBConnection Interface logic - loose coupled">
+      <created>1683572329972</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1683572329972</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +401,8 @@
     <MESSAGE value="mini-project" />
     <MESSAGE value="Abstract classes" />
     <MESSAGE value="Interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interface" />
+    <MESSAGE value="DBConnection Interface logic - loose coupled" />
+    <option name="LAST_COMMIT_MESSAGE" value="DBConnection Interface logic - loose coupled" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
