@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="JDBC - DB Connection completed">
-      <change afterPath="$PROJECT_DIR$/src/generics/GenericMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/PairDouble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/PairInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/PairNewTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/PairObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/PairOldTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/PairOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/PairTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generics/Rezultati.java" afterDir="false" />
+    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="Generics">
+      <change afterPath="$PROJECT_DIR$/src/generics/dbExample/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/dbExample/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/dbExample/CrudRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/PairNewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/PairNewTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,10 +63,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="generics.dbExample" />
       <recent name="exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericMethod">
+  <component name="RunManager" selected="Application.PairNewTest">
     <configuration name="CategoryRepository" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdbc_examples.CategoryRepository" />
       <module name="OOP_2023_Grupi_2" />
@@ -139,8 +135,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericMethod" />
         <item itemvalue="Application.PairNewTest" />
+        <item itemvalue="Application.GenericMethod" />
         <item itemvalue="Application.CategoryRepository" />
         <item itemvalue="Application.TestConnection" />
         <item itemvalue="Application.DbProjectTest" />
@@ -196,7 +192,7 @@
       <workItem from="1683566233001" duration="5396000" />
       <workItem from="1684171410911" duration="4634000" />
       <workItem from="1684347254187" duration="1899000" />
-      <workItem from="1684423352723" duration="2910000" />
+      <workItem from="1684423352723" duration="5447000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142490546</created>
@@ -394,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684349138303</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Generics">
+      <created>1684426470069</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1684426470069</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +427,8 @@
     <MESSAGE value="DBConnection Interface logic - loose coupled" />
     <MESSAGE value="JDBC - DB Connection" />
     <MESSAGE value="JDBC - DB Connection completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="JDBC - DB Connection completed" />
+    <MESSAGE value="Generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

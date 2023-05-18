@@ -10,8 +10,12 @@ public class PairNewTest {
         System.out.println(pI.getFirst());
 
 
+
+
         PairTwo<Integer, Integer> pairOfInts = new PairTwo<>(20, 30);
         PairTwo<Integer, String> pairIntWithString = new PairTwo<>(1, "Naim");
+
+        int nr = pairIntWithString.getFirst();
 
         System.out.println(pairIntWithString.getFirst());
         System.out.println(pairIntWithString.getSecond());
