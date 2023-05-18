@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="JDBC - DB Connection">
+    <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="JDBC - DB Connection completed">
+      <change afterPath="$PROJECT_DIR$/src/generics/GenericMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/PairDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/PairInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/PairNewTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/PairObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/PairOldTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/PairOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/PairTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics/Rezultati.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc_examples/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc_examples/CategoryRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +71,7 @@
       <recent name="exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CategoryRepository">
+  <component name="RunManager" selected="Application.GenericMethod">
     <configuration name="CategoryRepository" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdbc_examples.CategoryRepository" />
       <module name="OOP_2023_Grupi_2" />
@@ -90,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.games.Game" />
+    <configuration name="GenericMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.GenericMethod" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaces.games.*" />
+          <option name="PATTERN" value="generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerishableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.PerishableTest" />
+    <configuration name="PairNewTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.PairNewTest" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaces.*" />
+          <option name="PATTERN" value="generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericMethod" />
+        <item itemvalue="Application.PairNewTest" />
         <item itemvalue="Application.CategoryRepository" />
         <item itemvalue="Application.TestConnection" />
         <item itemvalue="Application.DbProjectTest" />
-        <item itemvalue="Application.Game" />
-        <item itemvalue="Application.PerishableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +195,8 @@
       <workItem from="1683558265334" duration="42000" />
       <workItem from="1683566233001" duration="5396000" />
       <workItem from="1684171410911" duration="4634000" />
-      <workItem from="1684347254187" duration="1769000" />
+      <workItem from="1684347254187" duration="1899000" />
+      <workItem from="1684423352723" duration="2910000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142490546</created>
@@ -378,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684176289187</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="JDBC - DB Connection completed">
+      <created>1684349138303</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1684349138303</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,7 +423,8 @@
     <MESSAGE value="Interface" />
     <MESSAGE value="DBConnection Interface logic - loose coupled" />
     <MESSAGE value="JDBC - DB Connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="JDBC - DB Connection" />
+    <MESSAGE value="JDBC - DB Connection completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC - DB Connection completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
