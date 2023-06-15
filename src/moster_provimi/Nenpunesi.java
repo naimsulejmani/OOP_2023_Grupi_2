@@ -1,6 +1,6 @@
 package moster_provimi;
 
-public class Nenpunesi {
+public abstract class Nenpunesi implements Punoj {
     private int id;
     private String emri;
     private String mbiemri;
@@ -17,6 +17,8 @@ public class Nenpunesi {
         this.pozita = pozita;
         this.statusi = statusi;
     }
+
+
 
     public int getId() {
         return id;
@@ -59,10 +61,10 @@ public class Nenpunesi {
       return   String.format("%d - %s %s- %s %b ",id,emri,mbiemri,pozita,statusi);
     }
 
-    public static void main(String[] args) {
-        Nenpunesi n1=new Nenpunesi(1,"Nikolin","Gegaj","Menaxher",true);
-        System.out.println(n1);
-    }
+//    public static void main(String[] args) {
+//        Nenpunesi n1=new Nenpunesi(1,"Nikolin","Gegaj","Menaxher",true);
+//        System.out.println(n1);
+//    }
 
 }
 
