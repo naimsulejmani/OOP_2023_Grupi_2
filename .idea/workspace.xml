@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a787e14-46c6-498f-8df1-6e523ac26440" name="Changes" comment="Moster provimi">
-      <change afterPath="$PROJECT_DIR$/src/moster_provimi/AutobusiFullException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/moster_provimi/NenpunesiJoKualifikuar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/moster_provimi/RrogaNegativeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/moster_provimi/TestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/moster_provimi/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/moster_provimi/shembull_tjeter/Autobusi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/moster_provimi/shembull_tjeter/FullShoferaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/moster_provimi/shembull_tjeter/Shoferi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/moster_provimi/shembull_tjeter/TestAutobusi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/moster_provimi/Nenpunesi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/moster_provimi/Nenpunesi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/moster_provimi/NenpunesiIKualifikuar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/moster_provimi/NenpunesiIKualifikuar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +67,7 @@
       <recent name="exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestMain">
+  <component name="RunManager" selected="Application.TestAutobusi">
     <configuration name="DetyraMetoda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="moster_provimi.DetyraMetoda" />
       <module name="OOP_2023_Grupi_2" />
@@ -110,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="db_project.Test" />
+    <configuration name="TestAutobusi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="moster_provimi.shembull_tjeter.TestAutobusi" />
       <module name="OOP_2023_Grupi_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="db_project.*" />
+          <option name="PATTERN" value="moster_provimi.shembull_tjeter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAutobusi" />
         <item itemvalue="Application.TestMain" />
         <item itemvalue="Application.NenpunesiIKualifikuar" />
         <item itemvalue="Application.DetyraMetoda" />
         <item itemvalue="Application.Nenpunesi" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +198,7 @@
       <workItem from="1685029370580" duration="119000" />
       <workItem from="1685382996578" duration="639000" />
       <workItem from="1686852506686" duration="2270000" />
-      <workItem from="1686935088967" duration="1379000" />
+      <workItem from="1686935088967" duration="3377000" />
     </task>
     <task id="LOCAL-00001" summary="added new changes">
       <created>1678142490546</created>
@@ -434,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686854777529</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Moster provimi">
+      <created>1686936530254</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1686936530254</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
