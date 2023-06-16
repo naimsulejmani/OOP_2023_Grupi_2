@@ -6,6 +6,7 @@ public abstract class Nenpunesi implements Punoj {
     private String mbiemri;
     private String pozita;
     private boolean statusi;
+    private float rroga;
 
     public Nenpunesi() {
     }
@@ -18,7 +19,14 @@ public abstract class Nenpunesi implements Punoj {
         this.statusi = statusi;
     }
 
+    public float getRroga() {
+        return rroga;
+    }
 
+    public void setRroga(float rroga) throws RrogaNegativeException {
+        if(rroga<0.0f) throw new RrogaNegativeException("Nuk guxon ....");
+        this.rroga = rroga;
+    }
 
     public int getId() {
         return id;

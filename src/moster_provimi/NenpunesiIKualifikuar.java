@@ -1,7 +1,6 @@
 package moster_provimi;
 
 public class NenpunesiIKualifikuar extends NenpunesiDK {
-
     private String kualifikimet;
 
     public NenpunesiIKualifikuar(int id, String name, String surname, String pozita, boolean statusi,
